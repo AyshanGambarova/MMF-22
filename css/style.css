@@ -1,40 +1,48 @@
+body {
+    overflow-x: hidden;
+}
+
 #join .text {
-  background-color: #131144;
-  color: white;
+    background-color: #131144;
+    color: white;
 }
+
 #join .text-inner {
-  padding: 40px 40px;
+    padding: 40px 40px;
 }
+
 #join .text .text-inner p {
-  color: #9998ae;
-  margin: 40px 0px;
-  font-weight: 500;
-  font-size: 15px;
+    color: #9998ae;
+    margin: 40px 0px;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 #join .text .text-inner .animated-img {
-  position: relative;
-  width: 55px;
-  height: 14px;
-  margin-top: 30px;
-  background-image: url("../images/separator.png");
-  background-position: center;
-  animation: slide 10s linear infinite;
+    position: relative;
+    width: 55px;
+    height: 14px;
+    margin-top: 30px;
+    background-image: url("../images/separator.png");
+    background-position: center;
+    animation: slide 10s linear infinite;
 }
 
 @keyframes slide {
-  from {
-    background-position: 0 0;
-  }
+    from {
+        background-position: 0 0;
+    }
 
-  to {
-    background-position: -200px 0;
-  }
+    to {
+        background-position: -200px 0;
+    }
 }
-#join .text .text-inner .item{
+
+#join .text .text-inner .item {
     text-align: center;
 }
-#join .text .text-inner .item .number{
+
+#join .text .text-inner .item .number {
     width: 134px;
     align-items: center;
     height: 95px;
@@ -46,95 +54,193 @@
     background-size: cover;
     font-family: 'Rubik Moonrocks', cursive;
 }
-#join .text .text-inner .item .number#first{
+
+#join .text .text-inner .item .number#first {
     background-image: url(../images/icon-1.png);
 }
-#join .text .text-inner .item .number#second{
+
+#join .text .text-inner .item .number#second {
     background-image: url(../images/icon-2.png);
 }
-#join .text .text-inner .item .number#last{
+
+#join .text .text-inner .item .number#last {
     background-image: url(../images/icon-3.png);
 }
-#join .text .text-inner .item .text{
+
+#join .text .text-inner .item .text {
     font-size: 22px;
 }
-#why-choose-us{
+
+#why-choose-us {
     background-color: #FAFAFA;
     padding: 60px 0px;
 }
-.header{
+
+.header {
     letter-spacing: 5px;
 }
-h1{
+
+h1 {
     color: #3F4161;
 }
-#why-choose-us .text p{
+
+#why-choose-us .text p {
     margin-top: 45px;
     color: #888888;
 }
+
 #why-choose-us .text .list {
     margin-top: 25px;
 }
-#why-choose-us .text .list ul{
+
+#why-choose-us .text .list ul {
     padding-left: 0px;
 }
-#why-choose-us .text .list ul li{
+
+#why-choose-us .text .list ul li {
     list-style-type: none;
     color: #444444;
     margin-bottom: 10px;
 }
-#why-choose-us .text .list ul li i{
-color: #F38242;
-margin-right: 18px;
+
+#why-choose-us .text .list ul li i {
+    color: #F38242;
+    margin-right: 18px;
 }
-#why-choose-us .text .buy-ticket{
+
+.btn-1,.btn-2 {
     margin-top: 50px;
 }
-#why-choose-us .text .buy-ticket a{
-      position: relative;
+
+.btn-1 a {
+    position: relative;
     font-size: 16px;
     line-height: 30px;
     color: #f1ecff;
     font-weight: 500;
-    padding: 10px 32px;
+    padding: 15px 35px;
     background-color: #345588;
-    border: 1px solid #F38242;
     border-radius: 3px;
     text-decoration: none;
     overflow: hidden;
 }
-#why-choose-us .text .buy-ticket a:hover{
+.btn-2 a {
+    position: relative;
+    font-size: 16px;
+    line-height: 30px;
+    color: #f1ecff;
+    font-weight: 500;
+    padding: 15px 35px;
+    background-color: #F38242;
+    border-radius: 3px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.btn-1 a:hover ,.btn-2 a:hover{
     background-color: white;
     color: #F38242;
+    border: 1px solid #F38242;
     transition: all .3s ease;
 }
-#location{
+
+#location {
     padding: 90px 0px;
     background-color: #F3F3F3;
 }
-#location .image{
+
+#location .image {
     border-radius: 7px;
     overflow: hidden;
 }
-#location .location-card{
+
+#location .location-card {
     background-color: white;
     padding: 26px 20px;
     font-size: 14px;
     color: #888888;
     border-radius: 7px;
 }
-#location .location-card a{
+
+#location .location-card a {
     color: #888888;
     text-decoration: none;
 }
-#location .location-card .social-links ul{
+
+#location .location-card .social-links ul {
     padding-left: 0px;
     list-style-type: none;
     display: flex;
 }
-#location .location-card .social-links ul li{
+
+#location .location-card .social-links ul li {
     margin-right: 10px;
 }
-#location .location-card .social-links ul li a{
+
+#location .location-card .social-links ul li a {
     color: #888888;
+}
+
+#about-ticket {
+    padding: 90px 0px;
+    background-color: #F8F9FA;
+}
+#about-ticket .ticket{
+    padding: 0px 15px;;
+}
+#about-ticket .ticket-card {
+    padding: 30px 0px;
+}
+
+#about-ticket .ticket-card ul {
+    padding-left: 0px;
+}
+
+#about-ticket .ticket-card ul li {
+    list-style-type: none;
+}
+
+#about-ticket .ticket-card .header {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#about-ticket .ticket-card .header h3 {
+    width: 121px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid white;
+    letter-spacing: 0px;
+    color: white;
+}
+
+#about-ticket .ticket-card .ticket-list {
+    color: white;
+    margin: 25px 0px;
+}
+
+#about-ticket .ticket-card .ticket-list ul li {
+    font-size: 18px;
+}
+
+#about-ticket .ticket-card .timer {
+    margin-right: 30px;
+    margin-left: 30px;
+    color: white;
+}
+
+#about-ticket .ticket-card .timer .time {
+    font-size: 18px;
+    font-weight: 700;
+}
+.bg-orange{
+    background-color: #FF8A02;
+    box-shadow: rgb(243 124 8) 0px 7px 29px 0px;
+}
+.bg-blue{
+    background-color: #355688;
+    box-shadow: rgb(38 93 236) 0px 7px 29px 0px;
+
+    
 }
