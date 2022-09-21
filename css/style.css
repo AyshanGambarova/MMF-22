@@ -1,0 +1,110 @@
+#join .text {
+  background-color: #131144;
+  color: white;
+}
+#join .text-inner {
+  padding: 40px 40px;
+}
+#join .text .text-inner p {
+  color: #9998ae;
+  margin: 40px 0px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+#join .text .text-inner .animated-img {
+  position: relative;
+  width: 55px;
+  height: 14px;
+  margin-top: 30px;
+  background-image: url("../images/separator.png");
+  background-position: center;
+  animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -200px 0;
+  }
+}
+#join .text .text-inner .item{
+    text-align: center;
+}
+#join .text .text-inner .item .number{
+    width: 134px;
+    align-items: center;
+    height: 95px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+#join .text .text-inner .item .number#first{
+    background-image: url(../images/icon-1.png);
+}
+#join .text .text-inner .item .number#second{
+    background-image: url(../images/icon-2.png);
+}
+#join .text .text-inner .item .number#last{
+    background-image: url(../images/icon-3.png);
+}
+#join .text .text-inner .item .text{
+    font-size: 22px;
+}
+#why-choose-us{
+    background-color: #FAFAFA;
+    padding: 60px 0px;
+}
+#why-choose-us .text .header{
+    letter-spacing: 5px;
+}
+#why-choose-us .text h1{
+    color: #3F4161;
+}
+#why-choose-us .text p{
+    margin-top: 45px;
+    color: #888888;
+}
+#why-choose-us .text .list {
+    margin-top: 25px;
+}
+#why-choose-us .text .list ul{
+    padding-left: 0px;
+}
+#why-choose-us .text .list ul li{
+    list-style-type: none;
+    color: #444444;
+    margin-bottom: 10px;
+}
+#why-choose-us .text .list ul li i{
+color: #F38242;
+margin-right: 18px;
+}
+#why-choose-us .text .buy-ticket{
+    margin-top: 50px;
+}
+#why-choose-us .text .buy-ticket a{
+      position: relative;
+    font-size: 16px;
+    line-height: 30px;
+    color: #f1ecff;
+    font-weight: 500;
+    padding: 10px 32px;
+    background-color: #345588;
+    border: 1px solid #F38242;
+    border-radius: 3px;
+    text-decoration: none;
+    overflow: hidden;
+}
+#why-choose-us .text .buy-ticket a:hover{
+    background-color: white;
+    color: #F38242;
+    transition: all .3s ease;
+}
